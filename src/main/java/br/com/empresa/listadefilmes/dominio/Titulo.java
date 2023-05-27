@@ -1,4 +1,4 @@
-package org.example.screenmatch;
+package br.com.empresa.listadefilmes.dominio;
 
 public class Titulo {
 
@@ -72,5 +72,10 @@ public class Titulo {
     public double retornarMedia(){
         double media = somaDasAvaliacoes/totalDeAvaliacoes;
         return media;
+    }
+
+    @Override
+    public String toString() {
+        return "Filme: " + this.getNome();
     }
 }

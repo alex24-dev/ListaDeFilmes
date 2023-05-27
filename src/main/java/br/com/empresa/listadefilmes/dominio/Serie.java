@@ -1,4 +1,4 @@
-package org.example.screenmatch;
+package br.com.empresa.listadefilmes.dominio;
 
 public class Serie extends Titulo{
 

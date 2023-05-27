@@ -1,4 +1,4 @@
-package org.example.screenmatch.calculos;
+package br.com.empresa.listadefilmes.calculos;
 
 public interface Classificavel {
 

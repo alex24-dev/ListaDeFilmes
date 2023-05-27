@@ -1,6 +1,7 @@
-package org.example.screenmatch;
+package br.com.empresa.listadefilmes.dominio;
 
-import org.example.screenmatch.calculos.Classificavel;
+
+import br.com.empresa.listadefilmes.calculos.Classificavel;
 
 public class Episodio  implements Classificavel {
 
