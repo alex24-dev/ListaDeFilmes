@@ -2,14 +2,13 @@ package br.com.empresa.listadefilmes.dominio;
 
 import br.com.empresa.listadefilmes.calculos.CalculadoraDeTempo;
 import br.com.empresa.listadefilmes.calculos.FiltroRecomendacao;
-
 import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
-        Filme batman = new Filme();
-        batman.setNome("Batman");
+        Filme batman = new Filme("Batman");
+       // batman.setNome("Batman");
         batman.setDataDeLancamento(2020);
         batman.setDuracaoEmMinutos(60);
 
@@ -19,13 +18,14 @@ public class Main {
 
         System.out.println(batman.retornarMedia());
 
-        Serie lost = new Serie();
-        lost.setNome("Lost");
+        Serie lost = new Serie("Lost");
+        //lost.setNome("Lost");
         lost.setDataDeLancamento(2000);
         lost.exibeFichaTecnica();
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorTemporada(50);
+        System.out.println(lost.getNome());
         System.out.println("Duracação da serie " + lost.getDuracaoEmMinutos());
 
         CalculadoraDeTempo calculadora  = new CalculadoraDeTempo();

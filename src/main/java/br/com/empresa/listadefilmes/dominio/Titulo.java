@@ -6,10 +6,12 @@ public class Titulo {
     private int dataDeLancamento;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
-
     private int totalDeAvaliacoes;
-
     private int duracaoEmMinutos;
+
+    public Titulo(String nome) {
+        this.nome = nome;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;

@@ -6,6 +6,9 @@ import br.com.empresa.listadefilmes.calculos.Classificavel;
 public class Filme extends Titulo  implements Classificavel {
 
     private String diretor;
+    public Filme(String nome) {
+        super(nome);
+    }
 
     public String getDiretor() {
         return diretor;

@@ -2,10 +2,16 @@ package br.com.empresa.listadefilmes.dominio;
 
 public class Serie extends Titulo{
 
+
+
     private int temporada;
     private boolean ativa;
     private int episodiosPorTemporada;
     private int minutosPorTemporada;
+
+    public Serie(String nome) {
+        super(nome);
+    }
 
     public int getTemporada() {
         return temporada;

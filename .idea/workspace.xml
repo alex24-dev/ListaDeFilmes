@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b5b6909-815f-45c6-8c0f-a3f45365b9b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b5b6909-815f-45c6-8c0f-a3f45365b9b3" name="Changes" comment="Criando uma lista de filmes. E adicionando filmes na lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/Classificavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Filme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Serie.java" afterDir="false" />
@@ -84,6 +78,18 @@
       <option name="presentableId" value="Default" />
       <updated>1685190886554</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criando uma lista de filmes. E adicionando filmes na lista">
+      <created>1685197265269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685197265269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criando uma lista de filmes. E adicionando filmes na lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando uma lista de filmes. E adicionando filmes na lista" />
   </component>
 </project>
