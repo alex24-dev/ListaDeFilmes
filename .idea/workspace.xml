@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b5b6909-815f-45c6-8c0f-a3f45365b9b3" name="Changes" comment="Criando uma lista de filmes. E adicionando filmes na lista">
+    <list default="true" id="8b5b6909-815f-45c6-8c0f-a3f45365b9b3" name="Changes" comment="adicionando construtor na super classe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Filme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/empresa/listadefilmes/dominio/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +16,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="66372597-97bf-48a2-8457-392546720c1e" />
+        <option name="url" value="https://github.com/alex24-dev/ListaDeFilmes.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,11 +96,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685197265269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adicionando construtor na super classe">
+      <created>1685281150007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685281150007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando uma lista de filmes. E adicionando filmes na lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando uma lista de filmes. E adicionando filmes na lista" />
+    <MESSAGE value="adicionando construtor na super classe" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando construtor na super classe" />
   </component>
 </project>

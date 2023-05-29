@@ -1,6 +1,6 @@
 package br.com.empresa.listadefilmes.dominio;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo>{
 
     private String nome;
     private int dataDeLancamento;
@@ -78,6 +78,11 @@ public class Titulo {
 
     @Override
     public String toString() {
-        return "Filme: " + this.getNome();
+        return "Titulo: " + this.getNome();
+    }
+
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }

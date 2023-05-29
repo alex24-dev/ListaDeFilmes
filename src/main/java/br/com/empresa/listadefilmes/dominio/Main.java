@@ -3,9 +3,13 @@ package br.com.empresa.listadefilmes.dominio;
 import br.com.empresa.listadefilmes.calculos.CalculadoraDeTempo;
 import br.com.empresa.listadefilmes.calculos.FiltroRecomendacao;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
 
         Filme batman = new Filme("Batman");
        // batman.setNome("Batman");
@@ -25,6 +29,10 @@ public class Main {
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorTemporada(50);
+
+        Filme avatar = new Filme("Avatar");
+        avatar.setDataDeLancamento(2023);
+
         System.out.println(lost.getNome());
         System.out.println("Duracação da serie " + lost.getDuracaoEmMinutos());
 
@@ -35,12 +43,29 @@ public class Main {
         FiltroRecomendacao filtro = new FiltroRecomendacao();
         filtro.filtra(batman);
 
-        ArrayList<Filme> listaFilmes = new ArrayList<>();
-        listaFilmes.add(batman);
-        System.out.println("Tamanho da Lista " + listaFilmes.size());
-        System.out.println("Nome do filme " + listaFilmes.get(0).getNome());
-        System.out.println(listaFilmes);
+        List<Titulo> listaDeTitulos = new ArrayList<>();
+        listaDeTitulos.add(batman);
+        listaDeTitulos.add(lost);
+        listaDeTitulos.add(avatar);
+
+        System.out.println("Tamanho da Lista " + listaDeTitulos.size());
+        System.out.println("Nome do filme " + listaDeTitulos.get(0).getNome());
+        System.out.println(listaDeTitulos);
         //System.out.println("toString " + listaFilmes.get(0).toString());
+        System.out.println("-------------------------");
+
+        for (Titulo titulo: listaDeTitulos) {
+            System.out.println(titulo);
+        }
+
+        Collections.sort(listaDeTitulos);
+        System.out.println("---------------");
+        System.out.println(listaDeTitulos);
+
+        System.out.println("---------------------------");
+        System.out.println("Comparando ordem de lancamento");
+        listaDeTitulos.sort(Comparator.comparing(Titulo::getDataDeLancamento));
+        System.out.println(listaDeTitulos);
 
     }
 }
